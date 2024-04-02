@@ -1,0 +1,172 @@
+.hal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.hal li {
+    float: left;
+}
+
+.hal li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.hal li a:hover {
+    background-color: #111;
+}
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .game-icon {
+    width: 100px;
+    margin: 10px;
+  }
+  
+  .game-icon:hover {
+    transform: scale(1.1);
+  }
+
+.jdl {
+    background-color: cadetblue;
+    text-align: center;
+}
+
+  body {
+    background-image: url(https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg);
+    background-size: cover;
+  }
+
+
+
+  .article {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .article article {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #111;
+    filter: opacity(90%);
+  }
+  
+  .article h2 {
+    color: #416dff;
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  
+  .article p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ffffff;
+  }
+  
+  .article img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .article a {
+    color: #1e90ff;
+    text-decoration: none;
+  }
+  
+  .article a:hover {
+    text-decoration: underline;
+  }
+  
+  .daptar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #111;
+  }
+  
+  .daptar li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .daptar li:last-child {
+    border-bottom: none;
+  }
+  
+  .daptar a {
+    text-decoration: none;
+    color: #27ff20;
+    font-size: 18px;
+  }
+  
+  .daptar a:hover {
+    color: #1e90ff;
+  }
+  
+
+
+
+
+
+  .hu-tao {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #111;
+    filter: opacity(80%);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .support-option {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .support-option h2 {
+    color: #efefef;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .support-option p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ffffff;
+  }
+  
+  .support-option a {
+    display: inline-block;
+    color: #fff;
+    background-color: #1e90ff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .support-option a:hover {
+    background-color: #187bcd;
+  }
